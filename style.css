@@ -1,0 +1,115 @@
+/* #0f3001 escuro */
+/* #7ed957 claro */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ruda", sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #cff7bf, #b7fc9a);
+}
+
+/* Imagem-logo */
+#context {
+  margin-bottom: 5px;
+}
+
+#logo-img {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+#logo-img img {
+  margin-top: 5%;
+  width: 50%;
+}
+
+/* Link instagram */
+#titulo-insta {
+  text-align: center;
+  margin: 5px;
+  margin-top: 15px;
+  font-size: 1.4rem;
+}
+
+#insta {
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 5%;
+  margin-top: 15px;
+  align-items: center;
+}
+
+#insta a {
+  font-size: 1.3rem;
+  color: #0f3001;
+  margin-left: 5px;
+}
+
+#insta #icone {
+  color: white;
+  font-size: 1.3rem;
+  width: 23px;
+  height: auto;
+  border-radius: 4px;
+  align-items: center;
+  background: linear-gradient(45deg, #d4d10b, #9d0fd4);
+  padding: 1px;
+}
+
+/* Titulos dos sabores */
+#titulo-sabor {
+  margin: 5%;
+  color: #fa0000;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+/* tópicos dos sabores */
+#sabores {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#sabores ul {
+  list-style: none;
+}
+
+#tradicionais,
+#doces,
+#especiais {
+  margin: 5px;
+}
+
+#sabores {
+  border-radius: 8px;
+  background-color: #0f3001;
+}
+
+#sabores-container {
+  border-radius: 7px;
+  background: linear-gradient(45deg, #8dc575, #a3e785);
+  width: 95%;
+  margin: 10px;
+  justify-content: center;
+}
+
+#sabores-container ul li {
+  background-color: #0f3001;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  border-radius: 7px;
+  padding: 15px;
+  color: white;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
